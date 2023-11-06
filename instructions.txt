@@ -1,0 +1,6 @@
+061123
+1 page website.
+Mobile / responsive first design.
+Native javascript hamburger menu for smaller screens / responsive design.
+Hero section (background to be full screen video), about section, services section, contact / booking needs call to action which is a phone call to his mobile phone.  Also link to his facebook section in this page (https://www.facebook.com/EmeraldCarpetCleaningAU).
+BJB
