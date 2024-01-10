@@ -1,21 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+  color: #333;
 }
 
-header ul{
-    display: flex;
+p {
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic",
+    メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
-main img{
-    margin: 20px auto;
-    width: 100%;
+/* ---------------header-------------------*/
+
+header {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+main img {
+  margin: 20px auto;
+  width: 100%;
+}
+
+/* -----------------about-------------------- */
+section {
+  padding: 10% 0 0 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: #1ca547;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.text h3 {
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 1rem;
+}
+
+/* ---------------services------------- */
+#services-wrapper {
+  background-color: rgba(28, 165, 71, 0.2);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  column-gap: 0;
+  justify-content: space-evenly;
+  padding: 10% 10%;
+}
+
+.services-container {
+  text-align: center;
+}
+
+.services-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.services-text {
+  /* text-align: center; */
+}
+
+.icons {
+  font-size: 8rem;
+  margin: 20px 0;
+}
+
+.services-content {
+  margin-top: 40px;
 }
