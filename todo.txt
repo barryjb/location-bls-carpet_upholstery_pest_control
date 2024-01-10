@@ -1,0 +1,7 @@
+100124
+Fix font color and size in header.
+Add automatically call phone number from header book now button.
+Source appropriate images for hero slider.
+Write appropriate alt tags for all html, inc. slider images.
+Make website responsive for tablet and mobile.
+BJB

@@ -27,9 +27,67 @@
     </header>
 
     <main>
-      <div>
-        <img src="img/mainvisual.jpg" alt="mainvisual" />
-      </div>
+
+      <section class="slider-container">
+        <!-- Image Slider Start -->
+        <div class="slider">
+          <div class="slides">
+
+
+            <!-- Radio Buttons Start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Radio Buttons End -->
+
+
+            <!-- Slide Images Start -->
+            <div class="slide first">
+              <img src="https://picsum.photos/id/30/500/500">
+              <!-- <img src="img/main-visual-1.jpg" alt="people cleaning"> -->
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/id/31/500/500">
+              <!-- <img src="img/main-visual-2" alt="people cleaning"> -->
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/id/32/500/500">
+              <!-- <img src="img/main-visual-3" alt="people cleaning"> -->
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/id/33/500/500">
+              <!-- <img src="img/main-visual-4" alt="people cleaning"> -->
+            </div>
+            <!-- Slide Images End -->
+
+            
+            <!-- Automatic Navigation Start -->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!-- Automatic Navigation End -->
+          </div>
+
+
+          <!-- Manual Navigation Start -->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!-- Manual Navigation End  -->   
+        </div>
+        <!-- Image Slider End -->
+      </section>
+
 
       <section id="about">
         <h2>About</h2>
@@ -141,5 +199,9 @@
     <footer>
       <p>&copy;</p>
     </footer>
+
+
+    <script src="main.js"></script>
+
   </body>
 </html>
